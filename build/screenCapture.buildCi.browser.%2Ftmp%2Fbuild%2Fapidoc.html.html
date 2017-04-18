@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/jhlywa/chess.js"
-
-    >chess.js (v0.10.2)</a>
+    <a href="https://github.com/jhlywa/chess.js">chess.js (v0.10.2)</a>
 </h1>
 <h4>A Javascript chess library for chess move generation/validation, piece placement/movement, and check/checkmate/draw detection</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.chess.js">module chess.js</a><ol>
 
@@ -111,23 +104,23 @@
 
 <span class="apidocCodeCommentSpan">  /* jshint indent: false */
 </span>
-  var BLACK = &#x27;b&#x27;;
-  var WHITE = &#x27;w&#x27;;
+  var BLACK = 'b';
+  var WHITE = 'w';
 
   var EMPTY = -1;
 
-  var PAWN = &#x27;p&#x27;;
-  var KNIGHT = &#x27;n&#x27;;
-  var BISHOP = &#x27;b&#x27;;
-  var ROOK = &#x27;r&#x27;;
-  var QUEEN = &#x27;q&#x27;;
-  var KING = &#x27;k&#x27;;
+  var PAWN = 'p';
+  var KNIGHT = 'n';
+  var BISHOP = 'b';
+  var ROOK = 'r';
+  var QUEEN = 'q';
+  var KING = 'k';
 
-  var SYMBOLS = &#x27;pnbrqkPNBRQK&#x27;;
+  var SYMBOLS = 'pnbrqkPNBRQK';
 
-  var DEFAULT_POSITION = &#x27;rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1&#x27;;
+  var DEFAULT_POSITION = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1';
 
-  var POSSIBLE_RESULTS = [&#x27;1-0&#x27;, &#x27;0-1&#x27;, &#x27;1/2-1/2&#x27;, &#x27;*&#x27;];
+  var POSSIBLE_RESULTS = ['1-0', '0-1', '1/2-1/2', '*'];
 
   var PAWN_OFFSETS = {
     b: [16, 32, 17, 15],
@@ -181,13 +174,13 @@
   var SHIFTS = { p: 0, n: 1, b: 2, r: 3, q: 4, k: 5 };
 
   var FLAGS = {
-    NORMAL: &#x27;n&#x27;,
-    CAPTURE: &#x27;c&#x27;,
-    BIG_PAWN: &#x27;b&#x27;,
-    EP_CAPTURE: &#x27;e&#x27;,
-    PROMOTION: &#x27;p&#x27;,
-    KSIDE_CASTLE: &#x27;k&#x27;,
-    QSIDE_CASTLE: &#x27;q&#x27;
+    NORMAL: 'n',
+    CAPTURE: 'c',
+    BIG_PAWN: 'b',
+    EP_CAPTURE: 'e',
+    PROMOTION: 'p',
+    KSIDE_CASTLE: 'k',
+    QSIDE_CASTLE: 'q'
   };
 
   var BITS = {
@@ -248,23 +241,23 @@
 
 <span class="apidocCodeCommentSpan">  /* jshint indent: false */
 </span>
-  var BLACK = &#x27;b&#x27;;
-  var WHITE = &#x27;w&#x27;;
+  var BLACK = 'b';
+  var WHITE = 'w';
 
   var EMPTY = -1;
 
-  var PAWN = &#x27;p&#x27;;
-  var KNIGHT = &#x27;n&#x27;;
-  var BISHOP = &#x27;b&#x27;;
-  var ROOK = &#x27;r&#x27;;
-  var QUEEN = &#x27;q&#x27;;
-  var KING = &#x27;k&#x27;;
+  var PAWN = 'p';
+  var KNIGHT = 'n';
+  var BISHOP = 'b';
+  var ROOK = 'r';
+  var QUEEN = 'q';
+  var KING = 'k';
 
-  var SYMBOLS = &#x27;pnbrqkPNBRQK&#x27;;
+  var SYMBOLS = 'pnbrqkPNBRQK';
 
-  var DEFAULT_POSITION = &#x27;rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1&#x27;;
+  var DEFAULT_POSITION = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1';
 
-  var POSSIBLE_RESULTS = [&#x27;1-0&#x27;, &#x27;0-1&#x27;, &#x27;1/2-1/2&#x27;, &#x27;*&#x27;];
+  var POSSIBLE_RESULTS = ['1-0', '0-1', '1/2-1/2', '*'];
 
   var PAWN_OFFSETS = {
     b: [16, 32, 17, 15],
@@ -318,13 +311,13 @@
   var SHIFTS = { p: 0, n: 1, b: 2, r: 3, q: 4, k: 5 };
 
   var FLAGS = {
-    NORMAL: &#x27;n&#x27;,
-    CAPTURE: &#x27;c&#x27;,
-    BIG_PAWN: &#x27;b&#x27;,
-    EP_CAPTURE: &#x27;e&#x27;,
-    PROMOTION: &#x27;p&#x27;,
-    KSIDE_CASTLE: &#x27;k&#x27;,
-    QSIDE_CASTLE: &#x27;q&#x27;
+    NORMAL: 'n',
+    CAPTURE: 'c',
+    BIG_PAWN: 'b',
+    EP_CAPTURE: 'e',
+    PROMOTION: 'p',
+    KSIDE_CASTLE: 'k',
+    QSIDE_CASTLE: 'q'
   };
 
   var BITS = {
@@ -390,23 +383,23 @@
 
 <span class="apidocCodeCommentSpan">  /* jshint indent: false */
 </span>
-  var BLACK = &#x27;b&#x27;;
-  var WHITE = &#x27;w&#x27;;
+  var BLACK = 'b';
+  var WHITE = 'w';
 
   var EMPTY = -1;
 
-  var PAWN = &#x27;p&#x27;;
-  var KNIGHT = &#x27;n&#x27;;
-  var BISHOP = &#x27;b&#x27;;
-  var ROOK = &#x27;r&#x27;;
-  var QUEEN = &#x27;q&#x27;;
-  var KING = &#x27;k&#x27;;
+  var PAWN = 'p';
+  var KNIGHT = 'n';
+  var BISHOP = 'b';
+  var ROOK = 'r';
+  var QUEEN = 'q';
+  var KING = 'k';
 
-  var SYMBOLS = &#x27;pnbrqkPNBRQK&#x27;;
+  var SYMBOLS = 'pnbrqkPNBRQK';
 
-  var DEFAULT_POSITION = &#x27;rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1&#x27;;
+  var DEFAULT_POSITION = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1';
 
-  var POSSIBLE_RESULTS = [&#x27;1-0&#x27;, &#x27;0-1&#x27;, &#x27;1/2-1/2&#x27;, &#x27;*&#x27;];
+  var POSSIBLE_RESULTS = ['1-0', '0-1', '1/2-1/2', '*'];
 
   var PAWN_OFFSETS = {
     b: [16, 32, 17, 15],
@@ -460,13 +453,13 @@
   var SHIFTS = { p: 0, n: 1, b: 2, r: 3, q: 4, k: 5 };
 
   var FLAGS = {
-    NORMAL: &#x27;n&#x27;,
-    CAPTURE: &#x27;c&#x27;,
-    BIG_PAWN: &#x27;b&#x27;,
-    EP_CAPTURE: &#x27;e&#x27;,
-    PROMOTION: &#x27;p&#x27;,
-    KSIDE_CASTLE: &#x27;k&#x27;,
-    QSIDE_CASTLE: &#x27;q&#x27;
+    NORMAL: 'n',
+    CAPTURE: 'c',
+    BIG_PAWN: 'b',
+    EP_CAPTURE: 'e',
+    PROMOTION: 'p',
+    KSIDE_CASTLE: 'k',
+    QSIDE_CASTLE: 'q'
   };
 
   var BITS = {
@@ -523,3 +516,4 @@
     ]
 </div>
 </div>
+</body></html>
