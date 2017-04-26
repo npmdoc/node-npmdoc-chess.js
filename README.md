@@ -1,6 +1,6 @@
 # npmdoc-chess.js
 
-#### api documentation for  [chess.js (v0.10.2)](https://github.com/jhlywa/chess.js)  [![npm package](https://img.shields.io/npm/v/npmdoc-chess.js.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-chess.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-chess.js.svg)](https://travis-ci.org/npmdoc/node-npmdoc-chess.js)
+#### basic api documentation for  [chess.js (v0.10.2)](https://github.com/jhlywa/chess.js)  [![npm package](https://img.shields.io/npm/v/npmdoc-chess.js.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-chess.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-chess.js.svg)](https://travis-ci.org/npmdoc/node-npmdoc-chess.js)
 
 #### A Javascript chess library for chess move generation/validation, piece placement/movement, and check/checkmate/draw detection
 
@@ -72,7 +72,8 @@
         "minify": "uglifyjs chess.js -c -m --comments 'license' > chess.min.js",
         "test": "mocha"
     },
-    "version": "0.10.2"
+    "version": "0.10.2",
+    "bin": {}
 }
 ```
 
